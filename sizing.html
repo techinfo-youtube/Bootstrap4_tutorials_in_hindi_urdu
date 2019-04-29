@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sizing in bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- fixed top -->
+	<h1 class="bg-info text-white fixed-bottom">TECH INFO</h1>
+
+	<!-- float position left right none -->
+		<div class="float-left">Float left</div>
+		<div class="float-right">Float right</div>
+		<div class="float-none">Float None</div>
+
+	<!-- clear fix -->
+	<div class="bg-danger clearfix">
+		<button class="btn btn-primary float-left">Float Left</button>
+		<button class="btn btn-primary float-right">Float right</button>
+	</div>
+	
+	<!-- width in bootstrap		|	height in bootstrap
+	w-25  - 25%  width		|	h-25  - 25% height
+	w-50  - 50%  width		|	h-50  - 50% height	
+	w-75  - 75%  width		|   h-75  - 75% height
+	w-100 - 100% width		|   h-100 - 100% height -->
+	<br><br><br><br><br><br>
+	<div class="bg-success p-1 m-1 text-white w-25">Width 25%</div>
+	<div class="bg-success p-1 m-1 text-white w-50">Width 50%</div>
+	<div class="bg-success p-1 m-1 text-white w-75">Width 75%</div>
+	<div class="bg-success p-1 m-1 text-white w-100">Width 100%</div>
+
+	<br><br><br><br><br>
+
+	<div style="height: 300px; border:1px solid #333">
+		<div class="bg-warning d-inline-block p-3 text-white h-25">Height 25%</div>
+		<div class="bg-warning d-inline-block p-3 text-white h-50">Height 50%</div>
+		<div class="bg-warning d-inline-block p-3 text-white h-75">Height 75%</div>
+		<div class="bg-warning d-inline-block p-3 text-white h-100">Height 1005%</div>
+	</div>
+<br><br>
+
+	<!-- border classes -->
+	<span class="border border-info ml-5">Lorem ipsum dolor sit amet.</span>
+
+<br><br><br><br><br><br>	<br><br><br>
+</body>
+</html>
